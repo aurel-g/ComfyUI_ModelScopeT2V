@@ -3,7 +3,7 @@ from comfy import model_base
 from comfy import utils
 
 from comfy import sd1_clip
-from comfy import sd2_clip
+from comfy.text_encoders import sd2_clip
 
 from comfy import supported_models_base
 from comfy import latent_formats
